@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Model artifacts (regenerate via model/README.md)
+model/portfolio_health_model.lgbm
+model/portfolio_health_model.onnx
+model/training_data.csv
+model/feature_importance.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
